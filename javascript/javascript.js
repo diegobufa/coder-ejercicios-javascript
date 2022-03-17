@@ -15,7 +15,7 @@ for(n=1; n<= cursoAula; n++){
 
     }else if(edadAlumnos >=6 ){
         
-        alert("Puedes comenzar el primer grado");
+        alert("Felicitaciones! Puedes comenzar el primer grado");
     }    
 }
 /*Mensaje final de salida*/
