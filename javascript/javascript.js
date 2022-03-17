@@ -5,7 +5,7 @@ let n;
 
 /* For y Condicionales*/
 for(n=1; n<= cursoAula; n++){
-    edadAlumnos = parseInt(prompt("Ingrese la edad del alumno?" + n));
+    edadAlumnos = parseInt(prompt("Ingrese la edad del alumno? " + n));
        
     if (edadAlumnos <= 4){
         alert("Te corresponde la sala de 4 del jardin");
@@ -21,3 +21,4 @@ for(n=1; n<= cursoAula; n++){
 /*Mensaje final de salida*/
 
 alert("La cantidad de alumos que se pudieron inscribir fueron: " + cursoAula);
+document.write("La cantidad de alumos que se pudieron inscribir fueron: " + cursoAula);
